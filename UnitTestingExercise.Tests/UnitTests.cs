@@ -60,10 +60,10 @@ namespace UnitTestingExercise.Tests
         }
 
         [Theory]
-        [InlineData(10,2,5)]
-        [InlineData(100, 2, -5)]
-        [InlineData(1, 200, 50)]
-        [InlineData(-10, 20, 500)]
+        [InlineData(10 ,2, 5)]
+        [InlineData(-10, 2, -5)]
+        [InlineData(1000, 20, 50)]
+        [InlineData(10000, 20, 500)]
         public void Divide(int num1, int num2, int expected)
         {
             //Arrange
@@ -77,24 +77,29 @@ namespace UnitTestingExercise.Tests
         }
 
         [Fact]
-        public void YourMethodName()
+        public void FrisbeeThrowing()
         {
             //Arrange
+            UnitTestMethods sut = new UnitTestMethods();
 
             //Act
+            var actual = sut.FrisbeeThrowing();
 
             //Assert
-
+            Assert.Equal("Throw Frisbee", actual);
         }
 
         [Fact]
-        public void YourMethodName2()
+        public void PayItForward()
         {
             //Arrange
+            UnitTestMethods sut = new UnitTestMethods();
 
             //Act
+            var actual = sut.PayItForward();
 
             //Assert
+            Assert.Equal("Make someones day!", actual);
         }
     }
 }

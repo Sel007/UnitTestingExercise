@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestingExerciseConsoleUI", "UnitTestingExercise\UnitTestingExerciseConsoleUI.csproj", "{43D53B10-3CE2-4C0E-88FE-9D91DB45206D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestingExercise", "UnitTestingExercise\UnitTestingExercise.csproj", "{43D53B10-3CE2-4C0E-88FE-9D91DB45206D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestingExercise.Tests", "UnitTestingExercise.Tests\UnitTestingExercise.Tests.csproj", "{ECAA8411-03B7-4AC2-AB0E-DBA6B1F8E4FA}"
 EndProject
